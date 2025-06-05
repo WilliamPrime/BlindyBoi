@@ -11,6 +11,11 @@ created_at: "05-06-25"
 inspired by this
 ![image](https://github.com/user-attachments/assets/752716ce-cdc8-407c-a5e2-f227bbe6f85a)
 
+###issues with the existing ones
+battery is fairly small
+40w max power with a 4000mah battery isnt great
+4000mah * 3.7v = 14.7Wh
+14.7/40 *60= 22min battery life at max power
 
 bms?
 diy or something else
@@ -72,13 +77,13 @@ with the intent of that being the front pcb
 	  - specs
 		  - 6500k
 		  - 24v @ 160ma , 3.8w
-		  - 650lm
+		  - 650 lm
 		  - 80 CRI
 	  
 	  https://www.mouser.co.uk/ProductDetail/997-L150658050240H
 	  - specs
 		  - 2200k
-		  - 510lm
+		  - 510 lm
 		  - 24v @ 160ma , 3.8w
 		  - 80 CRI
 	    
@@ -98,3 +103,19 @@ with the intent of that being the front pcb
 		- sustained current @ 25c = 17a
 		- sustained current  @ 100c = 12a
 			- 12a @ 24v --> 288w
+
+
+if i did 24 of each
+thats 48 total
+24 * 3.8 = 91.2w of each temp
+total power = 182.4w
+55680 lumens of light :skull: max
+
+using 6, 18650 cells gives me 88.8Wh of capacity which is alot better than the default
+similar battery life at max power, but max power would be very rarely used
+
+# start of the cad and PCB
+
+![image](https://github.com/user-attachments/assets/8a448769-64b8-42f1-9e26-54601b6e7a51)
+just got my 18650 battries modeled
+
